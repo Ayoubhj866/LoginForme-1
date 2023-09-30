@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Login Page</title>
+        <!-- css  -->
+        <script src="https://unpkg.com/phosphor-icons"></script>
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <!-- <div id="popUp" class="pop-up">
+            <header>
+                <span id="close-modal"><i class="ph-x"></i></span>
+            </header>
+            <div class="content">
+                <i class="ph-warning"></i>
+                <h1>Ooooops!</h1>
+                <p>the inputs is required .</p>
+            </div>
+        </div> -->
+        <div class="container">
+            <!-- //left   -->
+            <div class="container-left">
+                <img src="elements/d.jpg" alt="" />
+            </div>
+
+            <!-- //reght  -->
+            <div class="container-right">
+                <form id="form" class="form">
+                    <div class="form-header">
+                        <img src="elements/icon.png" alt="" />
+                        <h1 class="title text-color">Login to your Account</h1>
+                        <p class="small-title light-color">
+                            See what is going on with your business
+                        </p>
+                        <a href="#" class="link">
+                            <span class="small-icon"
+                                ><img src="elements/google.png" alt="" /></span
+                            >Continue with Google</a
+                        >
+                        <div class="separator">
+                            ------------- or Sign in with Email -------------
+                        </div>
+                    </div>
+
+                    <div class="form-content">
+                        <div class="form-control">
+                            <label for="email">Email</label>
+                            <input
+                                type="email"
+                                placeholder="example@gmail.com"
+                                name="email"
+                                id="email"
+                            />
+                            <div class="e-msg msg"></div>
+                        </div>
+
+                        <div class="form-control">
+                            <label for="password">password</label>
+                            <input
+                                type="password"
+                                name="password"
+                                placeholder="password"
+                                id="password"
+                            />
+                            <div class="p-msg msg"></div>
+
+                            <div class="remember">
+                                <div class="chekbox">
+                                    <input
+                                        type="checkbox"
+                                        name="remember"
+                                        id="remember"
+                                    />
+                                    <label for="remember">Remember Me</label>
+                                </div>
+                                <a href="#" class="link">Forgot Password?</a>
+                            </div>
+                        </div>
+
+                        <div class="form-control btn-container">
+                            <button class="btn btn-login">Login</button>
+                        </div>
+
+                        <div class="create-account">
+                            <span class="text">Not Registered Yet?</span>
+                            <span><a href="#">Create an account</a></span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- script  -->
+        <script src="js/app.js"></script>
+    </body>
+</html>
